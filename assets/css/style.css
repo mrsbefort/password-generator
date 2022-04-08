@@ -136,12 +136,25 @@ button[disabled] {
   }
 } */
 
+
+
+
+
+
+
+
+
+
+
+
+/* Font using  */
 @import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
 
 * {
 	box-sizing: border-box;
 }
 
+/* Using a flex box to center everything into the middle */
 body {
 	background-color: #3B3B98;
 	color: #fff;
@@ -153,7 +166,7 @@ body {
 	padding: 10px;
 	min-height: 100vh;
 }
-
+/* Some margins */
 p {
 	margin: 5px 0;
 }
@@ -166,7 +179,7 @@ h2 {
 input[type=checkbox] {
 	margin-right: 0;
 }
-
+/* Container has a box shawdow */
 .container {
 	background-color: #23235B;
 	box-shadow: 0px 2px 10px rgba(255, 255, 255, 0.2);
@@ -175,6 +188,7 @@ input[type=checkbox] {
 	max-width: 100%;
 }
 
+/* Result container is the area that displays the results */
 .result-container {
 	background-color: rgba(0, 0, 0, 0.4);
 	display: flex;
@@ -216,6 +230,7 @@ input[type=checkbox] {
 	width: 100%;
 }
 
+/* Using flex box to align content */
 .setting {
 	display: flex;
 	justify-content: space-between;

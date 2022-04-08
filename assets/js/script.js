@@ -71,7 +71,8 @@
 
 
 
-
+//DOM elements below. An example of a DOM element would be a DIV, HTML, BODY element on a page.
+ //You can find an entire list of HTML DOM elements at https://www.w3schools.com/jsref/dom_obj_all.asp. 
 const resultEl = document.getElementById('result');
 const lengthEl = document.getElementById('length');
 const uppercaseEl = document.getElementById('uppercase');

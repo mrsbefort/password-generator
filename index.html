@@ -4,8 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Password Generator</title>
-    <link rel="stylesheet" href="./assets/css/style.css" />
+    <title>Password Generator</title> //This is the title of the tab when you open the browser
+    <link rel="stylesheet" href="./assets/css/style.css" /> //Here I am including the css stylesheet 
   </head>
   <!-- <body>
     <div class="wrapper">
@@ -37,7 +37,9 @@
 <div class="container">
 	<h2>Password Generator</h2>
 	<div class="result-container">
+    //This is the blank area that looks like a rectangle where there result will be displayed.
 		<span id="result"></span>
+    //This is a clipboard button that is shown to the right of the rectangle that displays results
 		<button class="btn" id="clipboard">
 			<i class="far fa-clipboard"></i>
 		</button>
@@ -45,8 +47,10 @@
 	<div class="settings">
 		<div class="setting">
 			<label>Password length</label>
+      //Number input
 			<input type="number" id="length" min='4' max='20' value='20' />
 		</div>
+    //These are checkboxes that have UpperCase, LowerCase, Numbers, and Symbols
 		<div class="setting">
 			<label>Include uppercase letters</label> 
 			<input type="checkbox" id="uppercase" checked />
@@ -64,6 +68,7 @@
 			<input type="checkbox" id="symbols" checked />
 		</div>
 	</div>
+  //This is a Generate button
 	<button class="btn btn-large" id="generate">
 		Generate password
 	</button>
