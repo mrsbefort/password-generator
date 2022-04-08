@@ -172,8 +172,8 @@ button[disabled] {
 
 /* Using a flex box to center everything into the middle */
 body {
-	background-color: #3B3B98;
-	color: #fff;
+	background-color: #53f7c6ef;
+	color: rgba(15, 14, 14, 0.87);
 	display: flex;
 	font-family: 'Muli', sans-serif;
 	flex-direction: column;
@@ -197,7 +197,7 @@ input[type=checkbox] {
 }
 /* Container has a box shawdow */
 .container {
-	background-color: #23235B;
+	background-color: #f7f2b5;
 	box-shadow: 0px 2px 10px rgba(255, 255, 255, 0.2);
 	padding: 20px;
 	width: 350px;
@@ -206,7 +206,7 @@ input[type=checkbox] {
 
 /* Result container is the area that displays the results */
 .result-container {
-	background-color: rgba(0, 0, 0, 0.4);
+	background-color: rgba(169, 229, 253, 0.979);
 	display: flex;
 	justify-content: flex-start;
 	align-items: center;
@@ -234,11 +234,11 @@ input[type=checkbox] {
 
 .btn {
 	border: none;
-	color: #fff;
+	color: rgb(14, 1, 1);
 	cursor: pointer;
 	font-size: 16px;
 	padding: 8px 12px;
-	background-color: #3B3B98;
+	background-color: #fdcde9;
 }
 
 .btn-large {
